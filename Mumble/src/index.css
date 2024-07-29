@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#homepage{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.home-main-div{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.home-main-div1,.home-main-div2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 2rem;
+    margin-top: 1rem;
+    font-family: 'Quicksand', sans-serif;
+}
+.home-main-div1-content,.home-main-div2-content{
+    max-width: 45%;
+    font-size: 1.4rem;
+}
+.h1-main-content{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 46px;
+    line-height: 140%;
+}
+.h1-meeting-title{
+    font-family: 'Quicksand', sans-serif;
+}
+.h1-sub-content{
+    color: #a4a4a4;
+    font-size: 15px;
+    line-height: 150%;
+    font-family: 'Quicksand','sans-serif';
+    /* font-weight: lighter; */
+}
+.home-main-div1-pic1{
+    max-width: 45%;
+    height: 320px;
+    width: 500px;
+    /* background-image: url('./../public/assets/pic1.png');
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.home-main-div2-pic2{
+    max-width: 50%;
+    width: 400px;
+}
+.meeting-info-div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    /* padding: 1rem 0rem 1rem 3rem; */
+}
+.main-div{
+    display: flex;
+    justify-content: space-around;
+    /* padding-left: 3rem;
+    padding-right: 3rem; */
+    padding-top: 2rem;
+    align-items: center;
+    margin-bottom: 2rem;
+    min-height: 70vh;
+}
+#img-div{
+    display: flex;
+    /* width: 50%; */
+    width: auto;
+    max-height: 500px;
+    max-width: 500px;
+    height: auto;
+    margin-right: 1rem;
+}
+#div1{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+}
+.meeting-info-details-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.new-meeting-btn{
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #259782;
+    border: 1px solid #8B89BD;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 5px;
+    font-family: 'Quicksand','sans-serif';
+}
+.meeting-id{
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    font-family: 'Quicksand','sans-serif';
+    border: none;
+    font-size: 1.01rem;
+    width: 160px;
+}
+.join-meeting-div{
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #259782;
+    border-color: #259782;
+    color: white;
+    font-family: 'Quicksand','sans-serif';
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 1rem;
+    border-radius: 5px;
+}
+.join-meeting-div:hover{
+    background-color: white;
+    border-color: black;
+}
+
+@media screen and (max-width:900px) {
+    .main-div{
+        display: flex;
+        justify-content: center;
+        padding-left: 0.7rem;
+        padding-right: 0.7rem;
+        flex-direction: column-reverse;
+        padding-top: 1rem;
+        margin-bottom: 2rem;
+        height: auto;
+    }
+    #img-div{
+        display: flex;
+        margin-right: 0;
+        width: 100%;
+        /* max-width: 100%; */
+        /* max-height: 400px; */
+    }
+    #div1{
+        width: 90%;
+        min-width: 0px;
+        margin-left: 0rem;
+        margin-top: 1rem;
+    }
+    .h1-main-content{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 38px;
+        line-height: 120%;
+    }
+    .h1-meeting-title{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 26px;
+    }
+    .h1-sub-content{
+        color: #a4a4a4;
+        font-size: 15px;
+        margin-top: 0.6rem;
+        line-height: 100%;
+        font-family: 'Quicksand','sans-serif';
+    }
+    .meeting-info-div{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2.5rem;
+    }
+    .join-meeting-div{
+        margin-top: 1rem;
+        padding: 0.5rem 1rem;
+        background-color: #3a76fe;
+        border-color: #3a76fe;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 10px;
+        margin-left: 0.3rem;
+        border-radius: 5px;
+    }
+    .new-meeting-btn{
+        margin-top: 1rem;
+        padding: 0.5rem 0.3rem;
+        background-color: #259782;
+        border: 1px solid #8B89BD;
+        color: white;
+        cursor: pointer;
+        font-weight: 600;
+        border-radius: 5px;
+        font-size: 10px;
+        font-family: 'Quicksand','sans-serif';
+    }
+    .meeting-id{
+        margin-top: 1rem;
+        padding: 0.5rem 1rem;
+        margin-left: 0.5rem;
+        font-family: 'Quicksand','sans-serif';
+        border: none;
+        font-size: 11px;
+        width: 120px;
+    }
+}
+

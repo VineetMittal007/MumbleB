@@ -1,0 +1,34 @@
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #259782;
+    padding: 1rem;
+    margin-top: auto;
+}
+.footer-content,.footer-links-text{
+    font-size: 1.05rem;
+    display: flex;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+.footer-links-div{
+    display: flex;
+    flex-direction: column;
+}
+.footer-links{
+    display: flex;
+}
+.mylink:nth-child(1){
+    font-size: 1.1rem;
+    margin-left: 0;
+    cursor: pointer;
+}
+.mylink{
+    font-size: 1.1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+a{
+    color: white;
+}

@@ -1,0 +1,12 @@
+.App{
+    height: 100vh;
+    padding: 0.7rem;
+    background-color: black;
+}
+
+.controls-div{
+    display: flex;
+    flex-direction: row;
+    height: 5%;
+}
+

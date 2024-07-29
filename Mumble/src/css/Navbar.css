@@ -1,0 +1,137 @@
+.navbar{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70px;
+}
+.navbar-logo-div{
+    display: flex;
+    align-items: center;
+}
+.logo-img{
+    width: 45px;
+    height: 45px;
+    color: #37e329;
+    border-radius: 50%;
+}
+.navbar-logo-text{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    font-family: 'Quicksand', sans-serif;
+    color: #7B7B7B;
+    cursor: pointer;
+    font-size: 20px;
+}
+.login-btn,.logout-btn{
+    background-color: #ffffff;
+    display: flex;
+    padding: 0.5rem 0.8rem;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    height: 40px;
+    min-width: 120px;
+    font-family: 'Quicksand', sans-serif;
+    color: #8E8E8E;
+    border:0;
+    box-shadow: 1px 1px rgba(3, 3, 3, 0.1);
+    cursor: pointer;
+}
+.signup-btn{
+    background-color: #259782;
+    display: flex;
+    padding: 0.5rem 0.8rem;
+    font-size: 15px;
+    margin-left: 1rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    font-family: 'Quicksand', sans-serif;
+    min-width: 150px;
+    height: 40px;
+    color: #ffffff;
+    border:0;
+    cursor: pointer;
+}
+.account-btn{
+    display: flex;
+    padding: 0.5rem 0.8rem;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    margin-left: 1rem;
+    color: #8E8E8E;
+    border:0;
+    box-shadow: 1px 1px rgba(3, 3, 3, 0.1);
+    cursor: pointer;
+}
+#my-img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.link{
+    text-decoration: none;
+}
+
+@media screen and (max-width:500px) {
+    .navbar{
+        padding: 0.3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 70px;
+    }
+    .logo-img{
+        width: 35px;
+        height: 35px;
+        color: #37e329;
+        border-radius: 50%;
+    }
+    .navbar-logo-text{
+        display: flex;
+        align-items: center;
+        margin-left: 0.3rem;
+        font-family: 'Quicksand', sans-serif;
+        color: #7B7B7B;
+        font-size: 15px;
+    }
+    .login-btn,.logout-btn{
+        background-color: #ffffff;
+        display: flex;
+        padding: 0.5rem 0.8rem;
+        font-size: 13px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        height: 35px;
+        min-width: 80px;
+        color: #8E8E8E;
+        font-family: 'Quicksand', sans-serif;
+        border:0;
+        box-shadow: 1px 1px rgba(3, 3, 3, 0.1);
+        cursor: pointer;
+    }
+    .signup-btn{
+        background-color: #259782;
+        display: flex;
+        padding: 0.5rem 0.8rem;
+        font-size: 13px;
+        margin-left: 0.3rem;
+        align-items: center;
+        font-family: 'Quicksand', sans-serif;
+        justify-content: center;
+        border-radius: 6px;
+        min-width: 80px;
+        height: 35px;
+        color: #ffffff;
+        border:0;
+        cursor: pointer;
+    }
+}
